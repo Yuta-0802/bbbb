@@ -1,0 +1,75 @@
+html, body {
+  font-family: "Noto Sans JP",sans-serif;
+  margin: 0px;
+  text-align: center;
+  font-weight: 700;
+}
+
+
+/*ヘッダー*/
+.header-wrapper {
+  height: 70px;
+  background-color: burlywood;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-left p {
+  margin-left: 16px;
+  white-space: nowrap;
+}
+
+.header-right {
+  padding: 0;
+  font-size: 16px;
+  line-height: 40px;
+}
+
+.header-right li {
+  list-style: none;
+  display: inline;
+}
+
+.header-right ul {
+  padding: 0 15px;
+  float: left;
+  
+}
+
+.header-right li a{
+  height: 70px;
+  text-decoration: none;
+  color: black;
+  padding: 0 10px;
+}
+
+li.button {
+  background-color: #2598B3;
+}
+
+li.button a {
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
